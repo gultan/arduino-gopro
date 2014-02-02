@@ -16,6 +16,9 @@
 //           |
 //           + digital3
 //
+// Wiring:
+// Pin 2 to GoPro HERO BUS 12
+// Pin 3 to GoPro HERO BUS 30
 
 #define LED_N_SIDE 2
 #define LED_P_SIDE 3
