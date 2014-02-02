@@ -16,5 +16,5 @@ void loop() {
   digitalWrite(13, HIGH);   // set the gopro on
   delay(3000);              // wait for 3 second to turn on
   digitalWrite(13, LOW);    
-  delay(X5);              // Set the interval the of the pics + 5 seconds, the time a gopro takes to shoot a picture...
+  delay(X6);              // Set the interval the of the pics + 6 seconds, the time a gopro takes to shoot a picture...
 }
