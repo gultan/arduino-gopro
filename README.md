@@ -1,4 +1,4 @@
 arduino-gopro
 =============
 
-Soem of my arduino gopro projects
+my arduino gopro projects
