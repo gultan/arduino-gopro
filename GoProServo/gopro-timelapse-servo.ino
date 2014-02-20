@@ -1,4 +1,16 @@
-// GoPro Servo turn ON
+// GoPro Servo timelapse.
+// Servo mounting: 
+//               _____
+//              |     |
+// 180 --> ({{{{{{{O}}}}}}) <-- 0
+//              |_____|
+//        __
+//       |  | <-- Shutter button
+//      ------
+//     |      |_
+//     |GoPro   |
+//     |       _|
+//     |      |
 
 #include <Servo.h> 
 int led = 13; 
@@ -15,12 +27,14 @@ myservo.write(0); // attaches the servo on pin 9 to the servo object
  
 void loop() 
 { 
-  digitalWrite(led, HIGH);                           
-    myservo.write(0);
-    delay(10);
-    myservo.write(18);
+                            
+    myservo.write(180);
+    delay(5000);
+    myservo.write(160);
     delay(50);
-    myservo.write(0);
-  digitalWrite(led, LOW);
-  delay(X); // replace X by the lapse of the timelapse.
+    myservo.write(160);
+    delay(50);
+    myservo.write(180);
+ 
+ 
 }
