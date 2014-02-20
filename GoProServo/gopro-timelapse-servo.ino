@@ -14,6 +14,9 @@
 //
 // Picture here: http://instagram.com/p/kpfBuMnihD
 //
+// PARAMETERS:
+// X: the lapse of the timelapse
+
 #include <Servo.h> 
 int led = 13; 
 Servo myservo;  // create servo object to control a servo 
@@ -31,7 +34,7 @@ void loop()
 { 
                             
     myservo.write(180);
-    delay(5000);
+    delay(X);
     myservo.write(160);
     delay(50);
     myservo.write(160);
