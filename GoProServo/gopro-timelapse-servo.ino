@@ -11,7 +11,9 @@
 //     |GoPro   |
 //     |       _|
 //     |      |
-
+//
+// Picture here: http://instagram.com/p/kpfBuMnihD
+//
 #include <Servo.h> 
 int led = 13; 
 Servo myservo;  // create servo object to control a servo 
